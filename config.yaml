@@ -1,0 +1,19 @@
+project:
+  name: BioInfoRGO
+  description: A bioinformatics project for processing and analyzing Gene Ontology data using R
+  version: 1.0.0
+
+author:
+  name: Your Name
+  email: your.email@example.com
+
+paths:
+  uniprot: /path/to/uniprot-barophilus.tab
+  quickgo: /path/to/QuickGO-annotations.tsv
+  gff: /path/to/Tbarophilus.gff
+  output_dir: /path/to/output_directory
+
+species:
+  tax_id: 55802
+  genus: Thermococcus
+  species: barophilus
